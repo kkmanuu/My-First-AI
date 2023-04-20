@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+  --primary-color: #D96AA7;
+  --secondary-color: #b92b27;
+  --complimentary-color: #88BFB5;
+  --contrast-color: #F2E527;
+  --light-color: #D2A9D9;
+  }
+  
+  .container {
+    background: #191919;
+    min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  nav a {
+      padding: 2px;
+  }
+
+  nav {
+      position: fixed;
+      left: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100vh;
+      background: var(--secondary-color);
+      background-blend-mode: multiply;
+      
+  }
+  
